@@ -1,0 +1,717 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78ae41b2f4c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ae41ce0a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ae41ce0a60>>)
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_pub) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e01_topic_pub' with type 'ros.ament_cmake' and name 'e01_topic_pub'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/e01_topic_sub) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e01_topic_sub' with type 'ros.ament_cmake' and name 'e01_topic_sub'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_laser_tcp_recv) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e02_laser_tcp_recv' with type 'ros.ament_cmake' and name 'e02_laser_tcp_recv'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/e02_odom_and_imu_tcp_recv) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e02_odom_and_imu_tcp_recv' with type 'ros.ament_cmake' and name 'e02_odom_and_imu_tcp_recv'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/e03_cmd_vel_tcp_send) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e03_cmd_vel_tcp_send' with type 'ros.ament_cmake' and name 'e03_cmd_vel_tcp_send'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/e04_mini_car_description) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e04_mini_car_description' with type 'ros.ament_cmake' and name 'e04_mini_car_description'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_cartographer_mapping) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e05_cartographer_mapping' with type 'ros.ament_cmake' and name 'e05_cartographer_mapping'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e05_slam_toolbox_mapping) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e05_slam_toolbox_mapping' with type 'ros.ament_cmake' and name 'e05_slam_toolbox_mapping'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e06_map_server) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e06_map_server' with type 'ros.ament_cmake' and name 'e06_map_server'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/e07_nav2_bringup) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e07_nav2_bringup' with type 'ros.ament_cmake' and name 'e07_nav2_bringup'
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install
+[0.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'e01_topic_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_pub', 'symlink_install': False, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'e01_topic_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'e01_topic_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_sub', 'symlink_install': False, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_laser_tcp_recv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'e02_laser_tcp_recv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_laser_tcp_recv', 'symlink_install': False, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'e02_odom_and_imu_tcp_recv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'e02_odom_and_imu_tcp_recv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_odom_and_imu_tcp_recv', 'symlink_install': False, 'test_result_base': None}
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e03_cmd_vel_tcp_send' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'e03_cmd_vel_tcp_send' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e03_cmd_vel_tcp_send', 'symlink_install': False, 'test_result_base': None}
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e04_mini_car_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'e04_mini_car_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e04_mini_car_description', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'e05_cartographer_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'e05_cartographer_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_cartographer_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'e05_slam_toolbox_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'e05_slam_toolbox_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_slam_toolbox_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e06_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'e06_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e06_map_server', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'e07_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'e07_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup', 'merge_install': False, 'path': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.372s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_pub' with build type 'ament_cmake'
+[0.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_pub'
+[0.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_sub' with build type 'ament_cmake'
+[0.382s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_sub'
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_laser_tcp_recv' with build type 'ament_cmake'
+[0.388s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_laser_tcp_recv'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_odom_and_imu_tcp_recv' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_odom_and_imu_tcp_recv'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.402s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e03_cmd_vel_tcp_send' with build type 'ament_cmake'
+[0.402s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e03_cmd_vel_tcp_send'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e04_mini_car_description' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e04_mini_car_description'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_cartographer_mapping' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_cartographer_mapping'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_slam_toolbox_mapping' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_slam_toolbox_mapping'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub -- -j8 -l8
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub -- -j8 -l8
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv -- -j8 -l8
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv -- -j8 -l8
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send -- -j8 -l8
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description -- -j8 -l8
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping -- -j8 -l8
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping -- -j8 -l8
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping -- -j8 -l8
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description -- -j8 -l8
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub -- -j8 -l8
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub -- -j8 -l8
+[0.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e05_cartographer_mapping)
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_cartographer_mapping
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping' for CMake module files
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('e05_cartographer_mapping', 'cmake_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/hook/cmake_prefix_path.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/hook/cmake_prefix_path.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/hook/cmake_prefix_path.sh'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/bin'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/lib/pkgconfig/e05_cartographer_mapping.pc'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/lib/python3.10/site-packages'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.bash'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.zsh'
+[0.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/colcon-core/packages/e05_cartographer_mapping)
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e05_cartographer_mapping)
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping' for CMake module files
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping' for CMake config files
+[0.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('e05_cartographer_mapping', 'cmake_prefix_path')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/hook/cmake_prefix_path.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/hook/cmake_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/hook/cmake_prefix_path.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/bin'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/lib/pkgconfig/e05_cartographer_mapping.pc'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/lib/python3.10/site-packages'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/bin'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/e05_cartographer_mapping/package.zsh'
+[0.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping/share/colcon-core/packages/e05_cartographer_mapping)
+[0.610s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e06_map_server' with build type 'ament_cmake'
+[0.610s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e06_map_server'
+[0.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping -- -j8 -l8
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv -- -j8 -l8
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e04_mini_car_description)
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description' for CMake module files
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('e04_mini_car_description', 'cmake_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/hook/cmake_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/hook/cmake_prefix_path.dsv'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/hook/cmake_prefix_path.sh'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/bin'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/lib/pkgconfig/e04_mini_car_description.pc'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/lib/python3.10/site-packages'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/bin'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.bash'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.zsh'
+[0.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/colcon-core/packages/e04_mini_car_description)
+[0.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e04_mini_car_description)
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description' for CMake module files
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description' for CMake config files
+[0.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('e04_mini_car_description', 'cmake_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/hook/cmake_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/hook/cmake_prefix_path.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/hook/cmake_prefix_path.sh'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/bin'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/lib/pkgconfig/e04_mini_car_description.pc'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/lib/python3.10/site-packages'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/bin'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.bash'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.zsh'
+[0.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/colcon-core/packages/e04_mini_car_description)
+[0.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e01_topic_sub)
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub' for CMake module files
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub' for CMake config files
+[0.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('e01_topic_sub', 'cmake_prefix_path')
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/hook/cmake_prefix_path.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/hook/cmake_prefix_path.dsv'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/hook/cmake_prefix_path.sh'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/bin'
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib/pkgconfig/e01_topic_sub.pc'
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib/python3.10/site-packages'
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/bin'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.ps1'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.dsv'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.sh'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.bash'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.zsh'
+[0.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/colcon-core/packages/e01_topic_sub)
+[0.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e01_topic_sub)
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub' for CMake module files
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub' for CMake config files
+[0.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('e01_topic_sub', 'cmake_prefix_path')
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/hook/cmake_prefix_path.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/hook/cmake_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/hook/cmake_prefix_path.sh'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/bin'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib/pkgconfig/e01_topic_sub.pc'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib/python3.10/site-packages'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/bin'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.dsv'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.sh'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.bash'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.zsh'
+[0.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/colcon-core/packages/e01_topic_sub)
+[0.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup' with build type 'ament_cmake'
+[0.676s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e01_topic_pub)
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub' for CMake module files
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_pub
+[0.685s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub' for CMake config files
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('e01_topic_pub', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/hook/cmake_prefix_path.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/hook/cmake_prefix_path.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/hook/cmake_prefix_path.sh'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/lib'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/bin'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/lib/pkgconfig/e01_topic_pub.pc'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/lib/python3.10/site-packages'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/bin'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.sh'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.bash'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.zsh'
+[0.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/colcon-core/packages/e01_topic_pub)
+[0.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e01_topic_pub)
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub' for CMake module files
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub' for CMake config files
+[0.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('e01_topic_pub', 'cmake_prefix_path')
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/hook/cmake_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/hook/cmake_prefix_path.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/hook/cmake_prefix_path.sh'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/lib'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/bin'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/lib/pkgconfig/e01_topic_pub.pc'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/lib/python3.10/site-packages'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.sh'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.bash'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/e01_topic_pub/package.zsh'
+[0.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub/share/colcon-core/packages/e01_topic_pub)
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send -- -j8 -l8
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e05_slam_toolbox_mapping)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping' for CMake module files
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server -- -j8 -l8
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping' for CMake config files
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e05_slam_toolbox_mapping
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('e05_slam_toolbox_mapping', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/hook/cmake_prefix_path.sh'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/lib/pkgconfig/e05_slam_toolbox_mapping.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/lib/python3.10/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/bin'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.sh'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/colcon-core/packages/e05_slam_toolbox_mapping)
+[0.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e05_slam_toolbox_mapping)
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping' for CMake module files
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping' for CMake config files
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('e05_slam_toolbox_mapping', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/lib/pkgconfig/e05_slam_toolbox_mapping.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/lib/python3.10/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.bash'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/e05_slam_toolbox_mapping/package.zsh'
+[0.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping/share/colcon-core/packages/e05_slam_toolbox_mapping)
+[0.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e02_laser_tcp_recv)
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv' for CMake module files
+[0.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_laser_tcp_recv
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv' for CMake config files
+[0.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('e02_laser_tcp_recv', 'cmake_prefix_path')
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/hook/cmake_prefix_path.ps1'
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/hook/cmake_prefix_path.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/hook/cmake_prefix_path.sh'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/lib'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/bin'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/lib/pkgconfig/e02_laser_tcp_recv.pc'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/lib/python3.10/site-packages'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/bin'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.dsv'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.sh'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.bash'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.zsh'
+[0.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/colcon-core/packages/e02_laser_tcp_recv)
+[0.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e02_laser_tcp_recv)
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv' for CMake module files
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv' for CMake config files
+[0.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('e02_laser_tcp_recv', 'cmake_prefix_path')
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/hook/cmake_prefix_path.ps1'
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/hook/cmake_prefix_path.dsv'
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/hook/cmake_prefix_path.sh'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/lib'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/bin'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/lib/pkgconfig/e02_laser_tcp_recv.pc'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/lib/python3.10/site-packages'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/bin'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.sh'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.bash'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/e02_laser_tcp_recv/package.zsh'
+[0.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv/share/colcon-core/packages/e02_laser_tcp_recv)
+[0.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e03_cmd_vel_tcp_send)
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send' for CMake module files
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send' for CMake config files
+[0.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup -- -j8 -l8
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e03_cmd_vel_tcp_send
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('e03_cmd_vel_tcp_send', 'cmake_prefix_path')
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/hook/cmake_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/hook/cmake_prefix_path.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/lib'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/bin'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/lib/pkgconfig/e03_cmd_vel_tcp_send.pc'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/lib/python3.10/site-packages'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/bin'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.sh'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.bash'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.zsh'
+[0.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/colcon-core/packages/e03_cmd_vel_tcp_send)
+[0.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e03_cmd_vel_tcp_send)
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send' for CMake module files
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send' for CMake config files
+[0.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('e03_cmd_vel_tcp_send', 'cmake_prefix_path')
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/hook/cmake_prefix_path.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/hook/cmake_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/lib'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/lib/pkgconfig/e03_cmd_vel_tcp_send.pc'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/lib/python3.10/site-packages'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/bin'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.sh'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/e03_cmd_vel_tcp_send/package.zsh'
+[0.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send/share/colcon-core/packages/e03_cmd_vel_tcp_send)
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server -- -j8 -l8
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server
+[0.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e06_map_server)
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server' for CMake module files
+[0.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e06_map_server
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server' for CMake config files
+[0.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('e06_map_server', 'cmake_prefix_path')
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/hook/cmake_prefix_path.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/hook/cmake_prefix_path.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/hook/cmake_prefix_path.sh'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/bin'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/lib/pkgconfig/e06_map_server.pc'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/lib/python3.10/site-packages'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/bin'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.bash'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.zsh'
+[0.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/colcon-core/packages/e06_map_server)
+[0.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e06_map_server)
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server' for CMake module files
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server' for CMake config files
+[0.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('e06_map_server', 'cmake_prefix_path')
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/hook/cmake_prefix_path.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/hook/cmake_prefix_path.dsv'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/hook/cmake_prefix_path.sh'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/bin'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/lib/pkgconfig/e06_map_server.pc'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/lib/python3.10/site-packages'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/bin'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.dsv'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.sh'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.bash'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.zsh'
+[0.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/colcon-core/packages/e06_map_server)
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup -- -j8 -l8
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup
+[0.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e07_nav2_bringup)
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup' for CMake module files
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup' for CMake config files
+[0.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('e07_nav2_bringup', 'cmake_prefix_path')
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/cmake_prefix_path.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib'
+[0.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('e07_nav2_bringup', 'ld_library_path_lib')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/ld_library_path_lib.ps1'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/ld_library_path_lib.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/ld_library_path_lib.sh'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/bin'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib/pkgconfig/e07_nav2_bringup.pc'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib/python3.10/site-packages'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/bin'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.ps1'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.sh'
+[0.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.bash'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.zsh'
+[0.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/colcon-core/packages/e07_nav2_bringup)
+[0.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e07_nav2_bringup)
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup' for CMake module files
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup' for CMake config files
+[0.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('e07_nav2_bringup', 'cmake_prefix_path')
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/cmake_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/cmake_prefix_path.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/cmake_prefix_path.sh'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib'
+[0.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('e07_nav2_bringup', 'ld_library_path_lib')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/ld_library_path_lib.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/ld_library_path_lib.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/hook/ld_library_path_lib.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/bin'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib/pkgconfig/e07_nav2_bringup.pc'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib/python3.10/site-packages'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/bin'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.sh'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.bash'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/e07_nav2_bringup/package.zsh'
+[0.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/share/colcon-core/packages/e07_nav2_bringup)
+[6.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv -- -j8 -l8
+[6.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv
+[6.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e02_odom_and_imu_tcp_recv)
+[6.021s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv' for CMake module files
+[6.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e02_odom_and_imu_tcp_recv
+[6.022s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv' for CMake config files
+[6.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('e02_odom_and_imu_tcp_recv', 'cmake_prefix_path')
+[6.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/hook/cmake_prefix_path.ps1'
+[6.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/hook/cmake_prefix_path.dsv'
+[6.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/hook/cmake_prefix_path.sh'
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/lib'
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/bin'
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/lib/pkgconfig/e02_odom_and_imu_tcp_recv.pc'
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/lib/python3.10/site-packages'
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/bin'
+[6.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.ps1'
+[6.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.dsv'
+[6.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.sh'
+[6.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.bash'
+[6.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.zsh'
+[6.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/colcon-core/packages/e02_odom_and_imu_tcp_recv)
+[6.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e02_odom_and_imu_tcp_recv)
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv' for CMake module files
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv' for CMake config files
+[6.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('e02_odom_and_imu_tcp_recv', 'cmake_prefix_path')
+[6.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/hook/cmake_prefix_path.ps1'
+[6.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/hook/cmake_prefix_path.dsv'
+[6.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/hook/cmake_prefix_path.sh'
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/lib'
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/bin'
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/lib/pkgconfig/e02_odom_and_imu_tcp_recv.pc'
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/lib/python3.10/site-packages'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/bin'
+[6.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.ps1'
+[6.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.dsv'
+[6.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.sh'
+[6.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.bash'
+[6.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/e02_odom_and_imu_tcp_recv/package.zsh'
+[6.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv/share/colcon-core/packages/e02_odom_and_imu_tcp_recv)
+[6.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.037s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.037s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.038s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.047s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.064s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/local_setup.ps1'
+[6.065s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/_local_setup_util_ps1.py'
+[6.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/setup.ps1'
+[6.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/local_setup.sh'
+[6.072s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/_local_setup_util_sh.py'
+[6.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/setup.sh'
+[6.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/local_setup.bash'
+[6.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/setup.bash'
+[6.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/local_setup.zsh'
+[6.080s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/setup.zsh'

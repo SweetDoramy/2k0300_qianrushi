@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/simple_planner.cpp.o[0m
+[01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:[m[K In member function ‘[01m[Kvirtual void e07_nav2_bringup::SimplePlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kparams_callback_handle_[m[K’ was not declared in this scope
+   38 |   [01;31m[Kparams_callback_handle_[m[K = node->add_on_set_parameters_callback(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:[m[K In lambda function:
+[01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:46:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kparams_mutex_[m[K’ was not declared in this scope
+   46 |       std::lock_guard<std::mutex> lock([01;31m[Kparams_mutex_[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped e07_nav2_bringup::SimplePlanner::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:107:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst Twist[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+  107 |   if (goal_checker->isGoalReached(pose.pose, [01;31m[Kvelocity[m[K, global_path_.poses.back().pose)) {
+      |                                              [01;31m[K^~~~~~~~[m[K
+      |                                              [01;31m[K|[m[K
+      |                                              [01;31m[Kconst Twist {aka const geometry_msgs::msg::Twist_<std::allocator<void> >}[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:50[m[K,
+                 from [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/include/e07_nav2_bringup/simple_planner.hpp:2[m[K,
+                 from [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav2_core/goal_checker.hpp:87:83:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvirtual bool nav2_core::GoalChecker::isGoalReached(const Pose&, const Pose&, const Twist&)[m[K’
+   87 | gs::msg::Pose & query_pose, [01;36m[Kconst geometry_msgs::msg::Pose & goal_pose[m[K,
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/simple_planner.dir/build.make:76：CMakeFiles/simple_planner.dir/src/simple_planner.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/simple_planner.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

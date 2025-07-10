@@ -1,0 +1,51 @@
+[0.133s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e04_mini_car_description -DCMAKE_INSTALL_PREFIX=/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description
+[0.406s] -- The C compiler identification is GNU 11.4.0
+[0.713s] -- The CXX compiler identification is GNU 11.4.0
+[0.759s] -- Detecting C compiler ABI info
+[1.186s] -- Detecting C compiler ABI info - done
+[1.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.221s] -- Detecting C compile features
+[1.225s] -- Detecting C compile features - done
+[1.237s] -- Detecting CXX compiler ABI info
+[1.600s] -- Detecting CXX compiler ABI info - done
+[1.637s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.637s] -- Detecting CXX compile features
+[1.646s] -- Detecting CXX compile features - done
+[1.661s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.805s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.098s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.100s] -- Added test 'lint_cmake' to check CMake code style
+[3.102s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.109s] -- Added test 'xmllint' to check XML markup files
+[3.110s] -- Configuring done
+[3.120s] -- Generating done
+[3.140s] -- Build files have been written to: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description
+[3.177s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e04_mini_car_description -DCMAKE_INSTALL_PREFIX=/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description
+[3.191s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description -- -j8 -l8
+[5.175s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description -- -j8 -l8
+[5.229s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description
+[5.277s] -- Install configuration: ""
+[5.277s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/launch
+[5.277s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/launch/viewer_launch.py
+[5.278s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/launch/launch.py
+[5.278s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/description
+[5.278s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/description/mini_car_akm.urdf
+[5.278s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/rviz
+[5.279s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/rviz/urdf_config.rviz
+[5.279s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/ament_index/resource_index/package_run_dependencies/e04_mini_car_description
+[5.279s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/ament_index/resource_index/parent_prefix_path/e04_mini_car_description
+[5.280s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/environment/ament_prefix_path.sh
+[5.280s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/environment/ament_prefix_path.dsv
+[5.280s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/environment/path.sh
+[5.286s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/environment/path.dsv
+[5.292s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/local_setup.bash
+[5.303s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/local_setup.sh
+[5.305s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/local_setup.zsh
+[5.306s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/local_setup.dsv
+[5.307s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.dsv
+[5.310s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/ament_index/resource_index/packages/e04_mini_car_description
+[5.310s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/cmake/e04_mini_car_descriptionConfig.cmake
+[5.311s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/cmake/e04_mini_car_descriptionConfig-version.cmake
+[5.324s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description/share/e04_mini_car_description/package.xml
+[5.342s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e04_mini_car_description

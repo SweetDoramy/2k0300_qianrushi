@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+  Given plugin description file
+  '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup//home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/plugins.xml'
+  does not exist
+Call Stack (most recent call first):
+  CMakeLists.txt:74 (pluginlib_export_plugin_description_file)
+
+[0m

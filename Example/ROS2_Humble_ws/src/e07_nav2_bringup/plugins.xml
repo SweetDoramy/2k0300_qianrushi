@@ -1,0 +1,8 @@
+<library path="simple_planner">
+  <class 
+    name="e07_nav2_bringup/SimplePlanner" 
+    type="e07_nav2_bringup::SimplePlanner"
+    base_class_type="nav2_core::Controller">
+    <description>窄赛道专用纯追踪规划器</description>
+  </class>
+</library>

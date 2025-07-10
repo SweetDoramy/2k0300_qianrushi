@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:56 (file):
+  file INSTALL cannot find
+  "/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/scripts/navigation_launch.py":
+  No such file or directory.
+
+[0m

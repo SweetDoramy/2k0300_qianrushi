@@ -1,0 +1,16 @@
+controller_server:
+  ros__parameters:
+    controller_plugins: ["FollowPath"]
+    
+    FollowPath:
+      plugin: "e07_nav2_bringup/SimplePlanner"
+      
+      # 可动态调整的参数
+      lookahead_dist: 0.4    # 前瞻距离(米)
+      max_speed: 0.1      # 最大线速度(m/s)
+      kp: 1.0                # 转向比例系数
+      goal_tolerance: 0.1    # 目标容忍距离
+      
+      # 坐标系设置 - 关键修复
+      global_frame: map
+      robot_base_frame: base_link

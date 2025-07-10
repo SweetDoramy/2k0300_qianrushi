@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/launch
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/launch/viewer_launch.py
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/launch/launch.py
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/map
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/map/my_map.yaml
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/map/my_map.pgm
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/rviz
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/rviz/map_server.rviz
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/ament_index/resource_index/package_run_dependencies/e06_map_server
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/ament_index/resource_index/parent_prefix_path/e06_map_server
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/environment/ament_prefix_path.sh
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/environment/ament_prefix_path.dsv
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/environment/path.sh
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/environment/path.dsv
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/local_setup.bash
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/local_setup.sh
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/local_setup.zsh
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/local_setup.dsv
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.dsv
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/ament_index/resource_index/packages/e06_map_server
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/cmake/e06_map_serverConfig.cmake
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/cmake/e06_map_serverConfig-version.cmake
+-- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server/share/e06_map_server/package.xml

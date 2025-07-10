@@ -1,0 +1,26 @@
+[0.152s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub -- -j8 -l8
+[0.351s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.467s] [100%] Built target listener
+[0.598s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub -- -j8 -l8
+[0.600s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub
+[0.629s] -- Install configuration: ""
+[0.632s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib/e01_topic_sub/listener
+[0.634s] -- Set runtime path of "/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/lib/e01_topic_sub/listener" to ""
+[0.634s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub//launch
+[0.634s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub//launch/launch.py
+[0.634s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/ament_index/resource_index/package_run_dependencies/e01_topic_sub
+[0.641s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/ament_index/resource_index/parent_prefix_path/e01_topic_sub
+[0.645s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/environment/ament_prefix_path.sh
+[0.646s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/environment/ament_prefix_path.dsv
+[0.647s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/environment/path.sh
+[0.648s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/environment/path.dsv
+[0.650s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/local_setup.bash
+[0.653s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/local_setup.sh
+[0.655s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/local_setup.zsh
+[0.656s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/local_setup.dsv
+[0.656s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.dsv
+[0.660s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/ament_index/resource_index/packages/e01_topic_sub
+[0.661s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/cmake/e01_topic_subConfig.cmake
+[0.662s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/cmake/e01_topic_subConfig-version.cmake
+[0.669s] -- Installing: /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub/share/e01_topic_sub/package.xml
+[0.933s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e01_topic_sub

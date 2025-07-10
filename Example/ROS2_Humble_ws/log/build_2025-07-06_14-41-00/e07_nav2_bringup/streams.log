@@ -1,0 +1,75 @@
+[0.056s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup': /usr/bin/cmake /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup
+[7.683s] -- The C compiler identification is GNU 11.4.0
+[7.683s] -- The CXX compiler identification is GNU 11.4.0
+[7.683s] -- Detecting C compiler ABI info
+[7.687s] -- Detecting C compiler ABI info - done
+[7.692s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.692s] -- Detecting C compile features
+[7.692s] -- Detecting C compile features - done
+[7.692s] -- Detecting CXX compiler ABI info
+[7.692s] -- Detecting CXX compiler ABI info - done
+[7.692s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.693s] -- Detecting CXX compile features
+[7.693s] -- Detecting CXX compile features - done
+[7.693s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.693s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.693s] -- Found nav2_bringup: 1.1.18 (/opt/ros/humble/share/nav2_bringup/cmake)
+[7.693s] -- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+[7.694s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[7.694s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.694s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.700s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.705s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.705s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.705s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.705s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.705s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.705s] -- Looking for pthread.h
+[7.706s] -- Looking for pthread.h - found
+[7.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.989s] -- Found Threads: TRUE  
+[8.182s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.417s] Error parsing '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/package.xml':
+[8.605s] Traceback (most recent call last):
+[8.605s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[8.606s]     root = dom.parseString(data)
+[8.606s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[8.614s]     return expatbuilder.parseString(string)
+[8.615s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[8.621s]     return builder.parseString(string)
+[8.621s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[8.621s]     parser.Parse(string, True)
+[8.621s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 24, column 0
+[8.622s] 
+[8.622s] During handling of the above exception, another exception occurred:
+[8.622s] 
+[8.625s] Traceback (most recent call last):
+[8.625s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[8.625s]     main()
+[8.625s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[8.626s]     raise e
+[8.627s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[8.627s]     package = parse_package_string(
+[8.628s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[8.629s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[8.629s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/package.xml':
+[8.629s] The manifest contains invalid XML:
+[8.630s] XML or text declaration not at start of entity: line 24, column 0
+[8.685s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[8.685s]   execute_process(/usr/bin/python3
+[8.686s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[8.686s]   /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/package.xml
+[8.687s]   /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup/ament_cmake_core/package.cmake)
+[8.687s]   returned error code 1
+[8.687s] Call Stack (most recent call first):
+[8.687s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[8.690s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[8.690s]   CMakeLists.txt:70 (ament_lint_auto_find_test_dependencies)
+[8.694s] 
+[8.694s] [0m
+[8.703s] -- Configuring incomplete, errors occurred!
+[8.704s] See also "/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup/CMakeFiles/CMakeOutput.log".
+[8.722s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup' returned '1': /usr/bin/cmake /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup

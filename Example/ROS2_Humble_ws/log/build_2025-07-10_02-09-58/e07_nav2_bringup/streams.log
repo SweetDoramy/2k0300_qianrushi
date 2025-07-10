@@ -1,0 +1,30 @@
+[0.139s] Invoking command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup -- -j8 -l8
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/simple_planner.cpp.o[0m
+[6.122s] In file included from [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:1[m[K:
+[6.122s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/include/e07_nav2_bringup/simple_planner.hpp:[m[K In member function ‘[01m[Kvirtual void e07_nav2_bringup::SimplePlanner::setSpeedLimit(const double&, const bool&)[m[K’:
+[6.122s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/include/e07_nav2_bringup/simple_planner.hpp:31:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed_limit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.122s]    31 |   void setSpeedLimit([01;35m[Kconst double &speed_limit[m[K, const bool &percentage) override {}
+[6.122s]       |                      [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[6.122s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/include/e07_nav2_bringup/simple_planner.hpp:31:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpercentage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.122s]    31 |   void setSpeedLimit(const double &speed_limit, [01;35m[Kconst bool &percentage[m[K) override {}
+[6.122s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.137s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:[m[K In member function ‘[01m[Kvirtual void e07_nav2_bringup::SimplePlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[6.137s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:13:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcostmap_ros[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.137s]    13 |   [01;35m[Kstd::shared_ptr<nav2_costmap_2d::Costmap2DROS> costmap_ros[m[K)
+[6.137s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[6.139s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped e07_nav2_bringup::SimplePlanner::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[6.139s] [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:106:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst PoseStamped[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+[6.139s]   106 |   if (goal_checker->isGoalReached([01;31m[Kpose[m[K, velocity, global_path_.poses.back())) {
+[6.139s]       |                                   [01;31m[K^~~~[m[K
+[6.140s]       |                                   [01;31m[K|[m[K
+[6.140s]       |                                   [01;31m[Kconst PoseStamped {aka const geometry_msgs::msg::PoseStamped_<std::allocator<void> >}[m[K
+[6.140s] In file included from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:50[m[K,
+[6.140s]                  from [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/include/e07_nav2_bringup/simple_planner.hpp:2[m[K,
+[6.140s]                  from [01m[K/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/src/simple_planner.cpp:1[m[K:
+[6.140s] [01m[K/opt/ros/humble/include/nav2_core/goal_checker.hpp:87:38:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvirtual bool nav2_core::GoalChecker::isGoalReached(const Pose&, const Pose&, const Twist&)[m[K’
+[6.140s]    87 |     [01;36m[Kconst geometry_msgs::msg::Pose & query_pose[m[K, const geometry_msgs::msg::Pose & goal_pose,
+[6.140s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.982s] gmake[2]: *** [CMakeFiles/simple_planner.dir/build.make:76：CMakeFiles/simple_planner.dir/src/simple_planner.cpp.o] 错误 1
+[7.983s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/simple_planner.dir/all] 错误 2
+[7.983s] gmake: *** [Makefile:146：all] 错误 2
+[7.985s] Invoked command in '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup -- -j8 -l8

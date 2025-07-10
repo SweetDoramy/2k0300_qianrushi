@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (-) JobUnselected: {'identifier': 'e01_topic_pub'}
+[0.000423] (-) JobUnselected: {'identifier': 'e01_topic_sub'}
+[0.000446] (-) JobUnselected: {'identifier': 'e02_laser_tcp_recv'}
+[0.000461] (-) JobUnselected: {'identifier': 'e02_odom_and_imu_tcp_recv'}
+[0.000504] (-) JobUnselected: {'identifier': 'e03_cmd_vel_tcp_send'}
+[0.000695] (-) JobUnselected: {'identifier': 'e04_mini_car_description'}
+[0.000830] (-) JobUnselected: {'identifier': 'e05_cartographer_mapping'}
+[0.001625] (-) JobUnselected: {'identifier': 'e05_slam_toolbox_mapping'}
+[0.001691] (-) JobUnselected: {'identifier': 'e06_map_server'}
+[0.001716] (e07_nav2_bringup) JobQueued: {'identifier': 'e07_nav2_bringup', 'dependencies': OrderedDict()}
+[0.001759] (e07_nav2_bringup) JobStarted: {'identifier': 'e07_nav2_bringup'}
+[0.010644] (e07_nav2_bringup) JobProgress: {'identifier': 'e07_nav2_bringup', 'progress': 'cmake'}
+[0.011472] (e07_nav2_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup', '-DCMAKE_INSTALL_PREFIX=/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup'], 'cwd': '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'doramy'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/doramy'), ('OLDPWD', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2e287cdc75160f351434999c686ea42a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'doramy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'doramy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/doramy-virtual-machine:@/tmp/.ICE-unix/1818,unix/doramy-virtual-machine:/tmp/.ICE-unix/1818'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fe83f0b_adbe_4892_92b7_41c64aae9cbd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.45BX82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2e287cdc75160f351434999c686ea42a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble')]), 'shell': False}
+[0.082179] (e07_nav2_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099010] (-) TimerEvent: {}
+[0.142488] (e07_nav2_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.150877] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199557] (-) TimerEvent: {}
+[0.231860] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.239741] (e07_nav2_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.239934] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.240202] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.243232] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299640] (-) TimerEvent: {}
+[0.335698] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.343950] (e07_nav2_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.344234] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.344687] (e07_nav2_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.347982] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399869] (-) TimerEvent: {}
+[0.494794] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500507] (-) TimerEvent: {}
+[0.588914] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found nav2_bringup: 1.1.18 (/opt/ros/humble/share/nav2_bringup/cmake)\n'}
+[0.590965] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.594193] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600683] (-) TimerEvent: {}
+[0.643892] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.649818] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.659692] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.672467] (e07_nav2_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.689466] (e07_nav2_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700834] (-) TimerEvent: {}
+[0.743804] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.746989] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800908] (-) TimerEvent: {}
+[0.855093] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.882735] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.901217] (-) TimerEvent: {}
+[0.921618] (e07_nav2_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.932157] (e07_nav2_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001761] (-) TimerEvent: {}
+[1.017124] (e07_nav2_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.017657] (e07_nav2_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.102166] (-) TimerEvent: {}
+[1.106068] (e07_nav2_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.107156] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.164681] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[1.202481] (-) TimerEvent: {}
+[1.302754] (-) TimerEvent: {}
+[1.403557] (-) TimerEvent: {}
+[1.440106] (e07_nav2_bringup) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.440309] (e07_nav2_bringup) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.503766] (-) TimerEvent: {}
+[1.604526] (-) TimerEvent: {}
+[1.705264] (-) TimerEvent: {}
+[1.717685] (e07_nav2_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):\n'}
+[1.717919] (e07_nav2_bringup) StderrLine: {'line': b'  Given plugin description file\n'}
+[1.718042] (e07_nav2_bringup) StderrLine: {'line': b"  '/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup//home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e07_nav2_bringup/plugins.xml'\n"}
+[1.718104] (e07_nav2_bringup) StderrLine: {'line': b'  does not exist\n'}
+[1.718160] (e07_nav2_bringup) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.718284] (e07_nav2_bringup) StderrLine: {'line': b'  CMakeLists.txt:74 (pluginlib_export_plugin_description_file)\n'}
+[1.718337] (e07_nav2_bringup) StderrLine: {'line': b'\n'}
+[1.718388] (e07_nav2_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[1.718480] (e07_nav2_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.718661] (e07_nav2_bringup) StdoutLine: {'line': b'See also "/home/doramy/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/build/e07_nav2_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[1.728012] (e07_nav2_bringup) CommandEnded: {'returncode': 1}
+[1.755163] (e07_nav2_bringup) JobEnded: {'identifier': 'e07_nav2_bringup', 'rc': 1}
+[1.767255] (-) EventReactorShutdown: {}
